@@ -1,7 +1,29 @@
 aid: pack
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pack.png
 name: Pack
-description: Pack is a company surfaced as a portfolio company of anthemis, techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pack is an AI-powered skill management platform for HR and People teams. The
+  product helps organizations map skills into future-proof ontologies, assess
+  proficiency across teams, identify strategic skill gaps, and build
+  personalized development plans for employees. Additional capabilities include
+  business impact analysis, a Return on Development Investment (RODI) calculator,
+  and access to a network of 1,000+ certified trainers for mentoring and
+  coaching. Pack integrates with existing HRIS and LMS systems. The company
+  (Pack SRL) has raised approximately EUR 5.8M and is backed by Anthemis and
+  Techstars. This profile was added to the API Evangelist network as a
+  VC-portfolio lead; as of this enrichment pass Pack publishes no public API,
+  developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/pack/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,15 +34,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- HR Tech
+- Skills Management
+- Learning and Development
+- Artificial Intelligence
+- Talent Development
+- People Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/pack-domain-security.yml
 - type: Website
-  url: https://thepack.tech/
+  url: https://www.the-pack.ai/
+- type: Blog
+  url: https://www.the-pack.ai/pack-blog
+- type: TermsOfService
+  url: https://packworkspace.notion.site/Terms-of-Use-Pack-SRL-2a9167987ac6802cb0c4dc0ae0e30e39
+- type: PrivacyPolicy
+  url: https://packworkspace.notion.site/Privacy-Policy-1a5167987ac6802a816cdfad83e11d89

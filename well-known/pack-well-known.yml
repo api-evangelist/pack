@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: probed
+source: live HTTP probes of provider hosts (apis.yml Website host)
+notes: >-
+  No .well-known documents or llms.txt were published. Absence is valid data.
+  No file saved because no probe returned HTTP 200.
+hosts:
+- www.the-pack.ai
+- the-pack.ai
+probes:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- path: /llms.txt
+  status: 404
+  file: null
