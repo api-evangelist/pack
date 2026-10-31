@@ -64,6 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Pack is a company surfaced as a portfolio company of anthemis, techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Pack is an AI-powered skill management platform for HR and People teams. The product helps organizations map skills into future-proof ontologies, assess proficiency across teams, identify strategic skill gaps, and build personalized development plans for employees. Additional capabilities include business impact analysis, a Return on Development Investment (RODI) calculator, and access to a network of 1,000+ certified trainers for mentoring and coaching. Pack integrates with existing HRIS and LMS systems. The company (Pack SRL) has raised approximately EUR 5.8M and is backed by Anthemis and Techstars. This profile was added to the API Evangelist network as a VC-portfolio lead; as of this enrichment pass Pack publishes no public API, developer portal, or SDKs.
 
-Backed by: anthemis, techstars — https://thepack.tech/
+**Areas:** Company · Human Resources · Skills Management · Learning and Development · Artificial Intelligence · Talent Development · People Analytics
+
+## Pack on APIs.io
+
+Everything profiled for Pack is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pack/](https://apis.io/providers/pack/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Pack Domain Security](https://apis.io/security/pack/pack-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.the-pack.ai/)
+- [Blog](https://www.the-pack.ai/pack-blog)
+- [Terms of service](https://packworkspace.notion.site/Terms-of-Use-Pack-SRL-2a9167987ac6802cb0c4dc0ae0e30e39)
+- [Privacy policy](https://packworkspace.notion.site/Privacy-Policy-1a5167987ac6802a816cdfad83e11d89)
+
+## API Evangelist rating
+
+**Kin Score 8.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pack/](https://apis.io/providers/pack/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Pack: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pack/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
